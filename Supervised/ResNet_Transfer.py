@@ -22,7 +22,7 @@ from monai.transforms import (
     Compose, RandGaussianNoise, RandRotate, RandAxisFlip, RandAffine,
     OneOf, EnsureChannelFirst
 )
-from Model.Models import *
+from Helper.Helper_Transfer import *
 
 # Set environment variable to control CUDA memory allocation behavior in PyTorch
 # This limits the maximum split size for memory allocations to 128 MB, which can help with fragmentation issues.
