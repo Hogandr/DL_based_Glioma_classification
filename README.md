@@ -3,6 +3,9 @@ This repository contains the code for the master's thesis "A Comparative Study o
 
 ## Repository Structure
 
+- **[Preprocessing](./Preprocessing)**  
+  Contains script to run cropping of medical images.
+
 - **[Supervised](./Supervised)**  
   Contains scripts to run supervised deep learning models.
 
